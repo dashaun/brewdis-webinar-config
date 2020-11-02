@@ -5,6 +5,12 @@ management:
         include: '*'
 
 spring:
+  autoconfigure:
+    exclude:
+    - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+    - org.springframework.cloud.aws.autoconfigure.messaging.MessagingAutoConfiguration
+    - org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration
+    - org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration
   redis:
     host: brewdis-enterprise.eastus2.redisenterprise.cache.azure.net
     port: 10000
