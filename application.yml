@@ -12,6 +12,7 @@ spring:
   redis:
     host: brewdis-enterprise.eastus2.redisenterprise.cache.azure.net
     port: 10000
+    ssl: true
 
 stomp:
   host: dashaun-brewdis-brewdis.azuremicroservices.io
