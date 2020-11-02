@@ -1,3 +1,9 @@
+STOMP_HOST: dashaun-brewdis-brewdis.azuremicroservices.io
+STOMP_PORT: 80
+
+SPRING_REDIS_HOST: brewdis-enterprise.eastus2.redisenterprise.cache.azure.net
+SPRING_REDIS_PORT: 10000
+
 management:
   endpoints:
     web:
